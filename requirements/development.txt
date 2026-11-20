@@ -1,0 +1,9 @@
+-r training.txt
+-r serving.txt
+
+# Testing
+pytest==9.2.0
+pytest-cov==7.1.0
+
+# Code quality
+ruff==0.17.6

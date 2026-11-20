@@ -1,0 +1,6 @@
+-r base.txt
+-r torch-cu130.txt
+
+# API serving
+fastapi==0.165.0
+uvicorn==0.54.0
