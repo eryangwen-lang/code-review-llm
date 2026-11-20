@@ -1,0 +1,17 @@
+name: code-review-llm
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - torch
+    - transformers
+    - fastapi
+    - pyyaml
+    - pandas
+    - numpy
+    - scikit-learn
+    - pytest
+    - tqdm
+    - uvicorn[standard]

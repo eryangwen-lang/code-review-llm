@@ -1,0 +1,6 @@
+# data.yaml
+# Configuration for data processing
+
+raw_path: data/raw
+processed_path: data/processed
+interim_path: data/interim

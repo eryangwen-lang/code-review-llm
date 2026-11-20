@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Testing and cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Model weights
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Training checkpoints
+checkpoints/**
+!checkpoints/
+!checkpoints/**/
+!checkpoints/**/.gitkeep
+
+# Logs
+logs/**
+!logs/
+!logs/**/
+!logs/**/.gitkeep
+
+# Dataset files
+data/raw/**
+!data/raw/
+!data/raw/.gitkeep
+
+data/interim/**
+!data/interim/
+!data/interim/.gitkeep
+
+data/processed/**
+!data/processed/
+!data/processed/.gitkeep
+
+data/sft/**
+!data/sft/
+!data/sft/.gitkeep
+
+data/dpo/**
+!data/dpo/
+!data/dpo/.gitkeep
+
+data/splits/**
+!data/splits/
+!data/splits/.gitkeep

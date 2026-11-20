@@ -1,0 +1,7 @@
+# sft.yaml
+# Configuration for SFT training
+
+model_name: "gpt-oss-120b"
+batch_size: 8
+learning_rate: 5e-5
+epochs: 3
